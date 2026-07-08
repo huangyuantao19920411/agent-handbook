@@ -7,5 +7,6 @@
 3. [什么是 Firecracker？](03-what-is-firecracker.md)
 4. [vLLM 详解](04-vllm-explained.md)
 5. [SGLang 详解](05-sglang-explained.md)
+6. [沙箱与 K8s 调度](06-sandbox-and-k8s.md)
 
 所有文档使用 Mermaid 图表，在 GitHub 上可直接渲染。

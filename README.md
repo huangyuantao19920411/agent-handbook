@@ -13,6 +13,7 @@
 | [03 - 什么是 Firecracker？](docs/03-what-is-firecracker.md) | 微虚拟机沙箱 | 容器 vs VM、为什么 Agent 需要沙箱 |
 | [04 - vLLM 详解](docs/04-vllm-explained.md) | 大模型推理框架 | PagedAttention、连续批处理、部署架构 |
 | [05 - SGLang 详解](docs/05-sglang-explained.md) | 大模型推理框架 | RadixAttention、前端语言、与 vLLM 对比 |
+| [06 - 沙箱与 K8s 调度](docs/06-sandbox-and-k8s.md) | Agent 安全执行 | 三级隔离、SandboxScheduler、RuntimeClass |
 
 ## 概念关系总览
 
@@ -61,6 +62,7 @@ graph TB
 ## 关联项目
 
 - [agent-harness-rs](https://github.com/huangyuantao19920411/agent-harness-rs) — Rust 实现的 Agent Harness 参考框架
+- [agent-handbook](https://github.com/huangyuantao19920411/agent-handbook) — 本仓库，概念学习手册
 
 ## License
 
